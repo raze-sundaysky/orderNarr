@@ -2,12 +2,12 @@
   "name": "ordernarrinfolders",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./bin/OrderNarrInFolders",
   "bin": {
-    "orderNarr": "bin/OrderNarrInFolders"
+    "narrfiles": "./bin/OrderNarrInFolders"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "bin/OrderNarrInFolders '/Volumes/creative_projects/Allied sound TEMP/Audio/Narration/03_Master/WIP/2019-03-07 Allied Fixes' old"
   },
   "author": "",
   "license": "ISC",

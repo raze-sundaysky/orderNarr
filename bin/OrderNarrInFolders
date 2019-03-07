@@ -2,4 +2,4 @@
 
 const orderInFolders = require("../src/orderInFolders");
 
-orderInFolders(process.cwd(), process.argv[2]);
+orderInFolders(process.argv[2], process.argv[3]);
