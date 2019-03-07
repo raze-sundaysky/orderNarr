@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const orderInFolders = require("../src/orderInFolders");
+
+orderInFolders(process.cwd(), process.argv[2]);
